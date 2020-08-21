@@ -8,7 +8,7 @@ The main propose of Hotel Reservation Management (HRM) program is to create, upd
 - hotel_current_reservations.json
 
 To test the program, the following command has to be run:\
-$ python project01_HRM.py hotel_current_reservations.json
+**$ python project01_HRM.py hotel_current_reservations.json**
 
 The hotel data base is a dictionary where the main keys are the room number or name (it is a spring!!!).  If not input file is found a default hotel (without amenities and reservations is created). The structure of the JSON file is as follow example for 1 room with 1 reservation:
 
