@@ -3,15 +3,15 @@
 The main propose of Hotel Reservation Management (HRM) program is to create, update or cancel reservations to a hotel. These reservations are assigned to rooms and which can be modified after a room is assigned. Also, HRM is designed to search for rooms that match certain criteria such as available rooms per night and amenities (e.g. Ocean View, Accessible).  One important feature is the number of available rooms for a range of dates that is important for planning ahead.
 
 ## File System
-  a.project01_HRM.py
+  a.project01_HRM.py\
   b.hotel_current_reservations.json
 
 To test the program, the following command has to be run:
 $ python project01_HRM.py hotel_current_reservations.json
 
-The hotel data base is a dictionary where the main keys are the room number or name (it is a spring!!!).  If not input file is found a default hotel (without amenities and reservations is created). The structure of the JSON file is as follow example for 1 room with 1 reservation:\
+The hotel data base is a dictionary where the main keys are the room number or name (it is a spring!!!).  If not input file is found a default hotel (without amenities and reservations is created). The structure of the JSON file is as follow example for 1 room with 1 reservation:
 
-{"101": {"amenity": ["Suite", "Ocean View"], "reservations": [["10293603", "Andrea Rodriguez", "12/13/2019", "8", "10/29/2019"]]}\
+{"101": {"amenity": ["Suite", "Ocean View"], "reservations": [["10293603", "Andrea Rodriguez", "12/13/2019", "8", "10/29/2019"]]}
 
 Where “101” is a key with room number/name, the corresponding item is a dictionary with 2 fixed keys: “amenity” and “reservations”. “amenity” has an item that is a list with the amenities of the room (“101” in this example). “reservations” has a list where each element is a list with the reservation information: reservation number, name, check-in date, number of nights to stay and date when the reservation was created respectively. If no current JSON file is provided the program keep working with a default generated hotel with 20 rooms and no reservation included. The output name of the file is generated with a number corresponding to the date and time of the file generation to make it unique.
 
