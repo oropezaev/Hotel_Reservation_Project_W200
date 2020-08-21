@@ -3,8 +3,9 @@
 The main propose of Hotel Reservation Management (HRM) program is to create, update or cancel reservations to a hotel. These reservations are assigned to rooms and which can be modified after a room is assigned. Also, HRM is designed to search for rooms that match certain criteria such as available rooms per night and amenities (e.g. Ocean View, Accessible).  One important feature is the number of available rooms for a range of dates that is important for planning ahead.
 
 ## File System
-  a.project01_HRM.py\
-  b.hotel_current_reservations.json
+
+- project01_HRM.py
+- hotel_current_reservations.json
 
 To test the program, the following command has to be run:
 $ python project01_HRM.py hotel_current_reservations.json
